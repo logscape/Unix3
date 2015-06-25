@@ -33,7 +33,3 @@ The home page gives you an estate wide view of your servers performance and heal
 ## Process Activity  
 
 ![](docs/images/unx_process_0.png) 
-
-## Audit Activity
-
-![](docs/images/unx_audit.png) 
