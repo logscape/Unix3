@@ -1,43 +1,39 @@
-#WindowsApp-1.1
+#UnixApp-1.3
+##This is version of the UnixApp requires version 3 or greater, of Logscape
 
-The Logscape App for Windows helps you monitor, search and visualize the health of your Windows  servers. Charts report on system load, memory, network bandwidth and disk performance. 
+The UnixApps monitors disk,network and system health.
+
+## Prequisites
+
+The following commands should be available from the command-line. They are available in most default Linux/Unix installations. 
+
+	sar needs to be installed.
+	iostat is required for disk performance metrics 
 
 ## Downloads 
 
- * [WindowsApp-1.1.zip](https://github.com/logscape/cloud-windowsapp/blob/master/WindowsApp-1.1.zip?raw=true)	
-
-## Quick Start
-
-
-![](docs/images/win_home_1.png)
+ * [UnixApp-1.3.zip](https://github.com/logscape/Unix3/blob/master/UnixApp-1.3.zip?raw=true)
+ * [Example Properties File ](https://github.com/logscape/unixapp/raw/master/dist/UnixApp-1.1-override.properties)
 
 
-1. Download the zip below and upload it from the deployment page.
-2. Download the -override.properties, edit it accordingly to your deployment the override and upload it from the deployment page.
-3. Once both are uploaded, press DEPLOY on WindowsApp-1.0.zip (the application, not the override file).
-4. The Windows Application is now ready to use and can be selected opening the "Windows Home" Workspace 
+## Overview
+
+The home page gives you an estate wide view of your servers performance and health. Identify quickly when your servers are struggling under load. 
+
+![](docs/images/unx_home_0.png) 
 
 
-# Overview 
-
-The WindowsApp provides dashboards and searches for monitoring Memory,Cpu,Network and Disk Utilization of your Windows Servers. Windows Event Logging is also available from the Event Logs dashboard.  To get access to the WindowsApp home page navigate to the Workspaces and click open, then type 'Windows Home' to locate the Apps home page. The Windows Home will give you an overview your Windows Hosts being monitored and provide a navigation panel on the side other dashboards.
-
-## Process Overview
 
 
-![](docs/images/win_process_0.png)
-
-## Network Overview
+## Network Throughput 
 
 
-![](docs/images/win_network_0.png)
 
-## Disk Utilization Overview
+![](docs/images/unx_network_0.png) 
+## Process Activity  
 
+![](docs/images/unx_process_0.png) 
 
-![](docs/images/win_disk_0.png)
+## Audit Activity
 
-## Windows Event Logs 
-
-
-![](docs/images/win_events_0.png)
+![](docs/images/unx_audit.png) 
