@@ -20,7 +20,7 @@ for range in $( echo $hosts | sed -e 's/,/ /' );do
 	#echo details: $ping_start ,$stem ,  $start ,  $end
 	for x in `seq $start $end`;do 
 		ping $stem.$x -s 56 -c 3 -W 5  | grep from | grep -v Host  |  awk '{print $4"\t"$7}' | sed -e 's/time=//' | sed -e 's/\://'   & 
-		if [ 0 -eq $(echo 50 % $x  | bc)  ];then sleep 3s ; echo moo ;fi	
+		if [ 0 -eq $(echo 50 % $x  | bc)  ];then sleep 3s ; echo UnixApp - Sleep ;fi	
 		#echo details: $ping_start ,$stem ,  $start ,  $end
 	done
 done 
