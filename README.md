@@ -10,6 +10,10 @@ The following commands should be available from the command-line. They are avail
 	sar needs to be installed.
 	iostat is required for disk performance metrics 
 
+## Changes in 1.5
+
+    - Support for SynthAuths
+
 ## Downloads 
 
  * [UnixApp-1.5.zip](https://github.com/logscape/Unix3/blob/master/UnixApp-1.5.zip?raw=true)
