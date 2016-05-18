@@ -1,4 +1,4 @@
-#UnixApp-1.4
+#UnixApp-1.5
 ##This is version of the UnixApp requires version 3 or greater, of Logscape
 
 The UnixApps monitors disk,network and system health.
@@ -10,9 +10,13 @@ The following commands should be available from the command-line. They are avail
 	sar needs to be installed.
 	iostat is required for disk performance metrics 
 
+## Changes in 1.5
+
+    - Support for SynthAuths
+
 ## Downloads 
 
- * [UnixApp-1.4.zip](https://github.com/logscape/Unix3/blob/master/UnixApp-1.4.zip?raw=true)
+ * [UnixApp-1.5.zip](https://github.com/logscape/Unix3/blob/master/UnixApp-1.5.zip?raw=true)
  * [Example Properties File ](https://github.com/logscape/unixapp/raw/master/dist/UnixApp-1.1-override.properties)
 
 
